@@ -1,0 +1,22 @@
+package is.hi.hbv202g.ass8;
+
+/**
+ * @author Ester Jenný (ejb7)
+ **/
+public class Student extends User{
+    private boolean feePaid;
+    public Student(String name, boolean feePaid) {
+        this.feePaid = feePaid;
+    }
+
+    public boolean isFeePaid() {
+        return feePaid;
+    }
+
+    public void setFeePaid(boolean feePaid) {
+        this.feePaid = feePaid;
+    }
+
+
+
+}
