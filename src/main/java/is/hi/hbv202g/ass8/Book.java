@@ -7,14 +7,17 @@ import java.util.List;
  **/
 public class Book {
     private String title;
+
+
     public Book(String title, List<Author> authors) {
+
         this.title = title;
     }
 
     public void addAuthor(Author author){
     }
 
-    public List<Author> getAuthors(){
+    public List<Author> getAuthors() throws EmptyAuthorListException{
 
         return null;
     }
